@@ -52,7 +52,7 @@ STRIP := strip
 
 CSTD         ?= -std=c11
 CFLAGS       ?= -MMD -fno-strict-aliasing -I.
-CXXSTD       ?= -std=c++17
+CXXSTD       ?= -std=gnu++17
 CXXFLAGS     ?= -MMD
 WARNINGS     ?= -Wall -Wextra
 LDFLAGS      ?= -lm

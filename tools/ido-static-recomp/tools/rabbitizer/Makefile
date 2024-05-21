@@ -11,7 +11,7 @@ AR              := ar
 IINC            := -I include
 IINC_XX         := -I include -I cplusplus/include
 CSTD            := -std=c11
-CXXSTD          := -std=c++17
+CXXSTD          := -std=gnu++17
 CFLAGS          := -fPIC
 CXXFLAGS        := -fPIC
 LDFLAGS         := -Lbuild -lrabbitizer
